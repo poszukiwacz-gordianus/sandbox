@@ -38,7 +38,7 @@ export default function Pagination({ page = 10 }) {
               {pageItem}
             </a>
           ) : (
-            <span className="w-10">{pageItem}</span>
+            <span className="w-10 text-gray-500">{pageItem}</span>
           )}
         </div>
       ))}
