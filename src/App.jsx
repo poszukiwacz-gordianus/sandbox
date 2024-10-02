@@ -2,7 +2,9 @@
 // import Carousel from "./components/carousel/Carousel";
 // import Table from "./components/table/Table";
 // import Pagination from "./components/pagination/Pagination";
-// import Hero from "./components/hero/Hero";
+// import Hero from "./layout/hero/Hero";
+
+import AppLayout from "./layout/web-app/AppLayout";
 
 function App() {
   // return <Accordion />;
@@ -10,6 +12,7 @@ function App() {
   // return <Table />;
   // return <Pagination />;
   // return <Hero />;
+  return <AppLayout />;
 }
 
 export default App;
