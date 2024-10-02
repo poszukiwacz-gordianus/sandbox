@@ -13,8 +13,8 @@ export default function CarouselDots({ array = [], page, onPage }) {
         <button
           key={dot.author}
           className={`${
-            page === index ? " bg-[#087f5b]" : " bg-white"
-          } h-3 w-3 border-[2px] border-solid border-[#087f5b] rounded-full cursor-pointer`}
+            page === index ? " bg-[#087f5b] hover:cursor-default" : " bg-white"
+          } h-3 w-3 border-[2px] border-solid border-[#087f5b] rounded-full cursor-pointer hover:bg-[#087f5b]`}
           onClick={() => onPage(index)}
           aria-label={`Go to slide ${index + 1}`}
         >

@@ -13,7 +13,7 @@ export default function Pagination({ page = 10 }) {
   const pagesToShow = getPagesToShow(count, page);
 
   return (
-    <div className="flex gap-5 justify-center items-center text-center mt-10">
+    <div className="flex gap-5 justify-center items-center text-center my-10">
       <Button
         onClick={() => setCount(Math.max(1, count - 1))}
         disabled={count === 1}

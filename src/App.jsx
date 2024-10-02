@@ -4,15 +4,19 @@
 // import Pagination from "./components/pagination/Pagination";
 // import Hero from "./layout/hero/Hero";
 
-import AppLayout from "./layout/web-app/AppLayout";
+// import AppLayout from "./layout/web-app/AppLayout";
 
 function App() {
-  // return <Accordion />;
-  // return <Carousel />;
-  // return <Table />;
-  // return <Pagination />;
+  // return (
+  //   <>
+  //     <Accordion />
+  //     <Carousel />
+  //     <Table />
+  //     <Pagination />
+  //   </>
+  // );
   // return <Hero />;
-  return <AppLayout />;
+  // return <AppLayout />;
 }
 
 export default App;
