@@ -3,8 +3,9 @@
 // import Table from "./components/table/Table";
 // import Pagination from "./components/pagination/Pagination";
 // import Hero from "./layout/hero/Hero";
-
 // import AppLayout from "./layout/web-app/AppLayout";
+
+import ModalContainer from "./components/modal/ModalContainer";
 
 function App() {
   // return (
@@ -17,6 +18,7 @@ function App() {
   // );
   // return <Hero />;
   // return <AppLayout />;
+  return <ModalContainer />;
 }
 
 export default App;
